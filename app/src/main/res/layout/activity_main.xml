@@ -10,11 +10,10 @@
     <Button
         android:id="@+id/btn_calcular"
         android:layout_width="match_parent"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:text="Calcular"
+        android:background="@color/primary_400"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="160dp" />
 
@@ -23,29 +22,36 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        app:hintEnabled="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_peso"
+            android:maxLength="6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rouded_bg"
             android:hint="Digite o seu peso ex: 70.200"
             android:inputType="numberDecimal" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        app:hintEnabled="false"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
         tools:layout_editor_absoluteX="1dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edt_altura"
+            android:maxLength="4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/rouded_bg"
             android:hint="Digite a sua altura ex: 1.70"
             android:inputType="numberDecimal" />
     </com.google.android.material.textfield.TextInputLayout>
