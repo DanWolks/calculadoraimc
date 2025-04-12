@@ -17,6 +17,7 @@ Feedback com Snackbar para erros ou campos vazios
 <img src="https://github.com/user-attachments/assets/5f990f44-0ae1-43e0-a905-a1236eb71cdc" width=160/> <img src="https://github.com/user-attachments/assets/39eb4006-014d-447a-a93f-e1640f40ef0f" width=160/>
 
 🛠️ Tecnologias e Componentes Utilizados
+
 🔹 Componentes Android
   - Activity
   - Intent
