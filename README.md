@@ -1,19 +1,43 @@
 # Calculadora IMC
-Desc
+Aplicação Android nativa desenvolvida em Kotlin, com o objetivo de calcular o Índice de Massa Corporal (IMC) de forma simples e intuitiva. O resultado do cálculo é exibido em uma segunda tela, juntamente com uma representação visual e classificações baseadas no valor obtido.
 
-## :camera_flash: Screenshots
+✨ Funcionalidades
+Entrada de peso e altura do usuário
+
+Cálculo automático do IMC
+
+Exibição do resultado com mensagem e imagem correspondente
+
+Navegação entre telas utilizando Intent
+
+Feedback com Snackbar para erros ou campos vazios
+
+📸 Capturas de Tela
 <!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="https://github.com/user-attachments/assets/5f990f44-0ae1-43e0-a905-a1236eb71cdc" width=160/> <img src="https://github.com/user-attachments/assets/39eb4006-014d-447a-a93f-e1640f40ef0f" width=160/>
 
-## Tecnologias
-Techs
+🛠️ Tecnologias e Componentes Utilizados
+🔹 Componentes Android
+  - Activity
+  - Intent
+  - Snackbar
+
+🔹 Layouts e Containers
+  - LinearLayout
+  - ConstraintLayout
+
+🔹 Views
+  - ImageView
+  - TextView
+  - EditText
+  - Button
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2025 Daniel da Silva Aquino
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
